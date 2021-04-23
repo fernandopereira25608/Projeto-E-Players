@@ -23,10 +23,10 @@ header {
 }
 
 .container-header {
-height: 100%;
-display: flex;
-justify-content: space-between;
-align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu{
@@ -37,16 +37,16 @@ align-items: center;
 
 .menu a {
     color: #ffffff;
-text-decoration: none;
-text-transform: uppercase;
+    text-decoration: none;
+    text-transform: uppercase;
 
 }
 
 .banner {
     height: 602px;
     background-image: url(../Img/Group\ 1.png);
-background-repeat: no-repeat;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container-banner{
@@ -58,5 +58,48 @@ background-size: cover;
 
 .texto-banner{
     color: #ffffff;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 270px;
+    justify-content: space-between;
 }
+h1{
+    font-size: 80px;
+}
+
+.texto-banner span{
+    font-size: 25px;
+}
+
+.texto-banner a{
+    font-size: 25px;
+    color: #ffffff;
+    background-color:#2F21C8  ;
+    height: 63px;
+    width: 257px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 31px;
+    text-transform: uppercase;
+    text-decoration: none;
+ 
+}
+.container-jogos{
+    height: 121px;
+    background-color: black;
+}
+.container-imagem{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-banner-participar{
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

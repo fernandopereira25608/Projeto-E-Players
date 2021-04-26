@@ -97,9 +97,49 @@ h1{
     align-items: center;
 }
 .container-banner-participar{
-    display: flex;
-    justify-content: space-around;
+    height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(../Img/Rectangle\ 5.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
+
+.retangulo {
+    transform:skewY(-3deg);
+background-color: black;
+height: 85%;
+width: 100%;
+
+}
+
+.texto-do-retangulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    transform: skewY(3deg);
+
+}
+
+.imagem-tamanho {
+    height: 400px;
+}
+
+.texto-tamanho{
+    width: 524px;
+
+}
+
+.texto-tamanho h2 {
+    margin-bottom: 25px;
+
+}
+
+.ao-vivo {
+    
+}
+
 
